@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: 42_SB_MongoDb_Association_Mapping
+    
+  data:
+    mongodb:
+#      host: localhost
+#      port: 27017
+      uri: mongodb+srv://honnur6268:6268@cluster0.iz3hmlz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: associationdb
+      auto-index-creation: true
+      
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: honnurcse.rymec@gmail.com
+    password: xhfo cops uagl bqwx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
