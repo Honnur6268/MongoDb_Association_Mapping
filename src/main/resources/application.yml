@@ -6,7 +6,7 @@ spring:
     mongodb:
 #      host: localhost
 #      port: 27017
-      uri: mongodb+srv://honnur6268:6268@cluster0.iz3hmlz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: mongodb+srv://your_username:your_password@cluster0.iz3hmlz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       database: associationdb
       auto-index-creation: true
       
@@ -14,7 +14,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: honnurcse.rymec@gmail.com
-    password: xhfo cops uagl bqwx
+    password: your_mail_app_password
     properties:
       mail:
         smtp:
